@@ -1,0 +1,145 @@
+    1  mdir project
+    2  mkdir project
+    3  cd projct
+    4  cd project
+    5  pwd
+    6  touch .fileOne FILEtWO
+    7  mv FILEtWO fileTwo
+    8  rm .fileOne
+    9  git init
+   10  echo "git init: initializs the folder as a git folder"
+   11  ls -a
+   12  ls .git
+   13  ls -al
+   14  echo "you can now see a .git folder"
+   15  git status
+   16  touch names.txt
+   17  ls
+   18  git status
+   19  git add names.txt
+   20  git status
+   21  echo "names.txt is shown, because it hasn't been added to the taging area"
+   22  git status
+   23  git add names.txt has added ile to the staging area . Changes ito it will be added to the repoistory the next time I do a commit
+   24  echo git add names.txt has added ile to the staging area . Changes ito it will be added to the repoistory the next time I do a commit
+   25  git commit -m "Initial Commit 
+   26  names.txt has been added to git"
+   27  git log
+   28  git status
+   29  rm fileTwo 
+   30  git status
+   31  nano
+   32  vi
+   33  vi names.txt
+   34  vi .vimrc
+   35  ls
+   36  cd ..
+   37  ls
+   38  ls -a
+   39  vi .vimcrc
+   40  cd project/
+   41  ls
+   42  vi names.txt 
+   43  find /etc -name vimrc
+   44  find -name vimrc
+   45  find -name /etc/exrc
+   46  history
+   47  history > 1235.txt
+   48  mv 1235.txt ./1235.txt
+   49  mv 1235.txt ../1235.txt
+   50  ls ..
+   51  less 1235.txt
+   52  less ../1235.txt 
+   53  cd project
+   54  ls
+   55  cat names.txt 
+   56  git status
+   57  git add names.txt
+   58  git commit -m "Incomplete names
+   59  Added a name to the file"
+   60  git status
+   61  history
+   62  git stats
+   63  git --help
+   64  scp
+   65  history
+   66  git log
+   67  vi names.txt
+   68  git status
+   69  git add . 
+   70  git status
+   71  vi passwords.txt
+   72  git status
+   73  vi .gitignore
+   74  git add .
+   75  git status
+   76  git add . 
+   77  git status
+   78  cat .gitignore
+   79  git commit -m
+   80  git commit -m "Adding .gitignore file
+   81  Added a .gitignore
+   82  Added passwords to .gitignore
+   83  "
+   84  git status
+   85  git log  --oneline
+   86  cat names.txt
+   87  git checkout ece 7e48 
+   88  git checkout c36b7e9
+   89  cat names.txt
+   90  git checkout last
+   91  git checkout master
+   92  cat names.txt 
+   93  vi names.txt
+   94  git add names.txt
+   95  git head names.txt
+   96  git -head names.txt
+   97  git diff HEAD
+   98  cd project
+   99  ls
+  100  get remoet add origin https://github.com/cythecylon/as3.git
+  101  get remote add origin https://github.com/cythecylon/as3.git
+  102  git remote add origin https://github.com/cythecylon/as3.git
+  103  git push -u origin master
+  104  cat config
+  105  cd .git
+  106  cat .config
+  107  ls
+  108  cat config
+  109  jupyter notebook
+  110  jupyter notebook
+  111  cd ..
+  112  ls
+  113  jupyter notebook
+  114  jupyter noteboook &
+  115  jupyter notebook &
+  116  git add lab4.ipynb 
+  117  git commit -m "Added lab 4
+
+Lab4 containing getAverage()"
+  118  git status
+  119  git log
+  120  git remote add origin "https://github.com/cythecylon/as3.git"
+  121  vi .gitignore
+  122  git add *
+  123  ls
+  124  vi .gitignore
+  125  git status
+  126  git status
+  127  git add .gitignore
+  128  git add *
+  129  git status
+  130  git log
+  131  git commit -m "Added jupyter notebook
+
+"
+  132  rm names.txt 
+  133  git commit -m "Deleted names.txt
+
+"
+  134  git push
+  135  git commit -m "Deleted names.txt
+
+"
+  136  history
+  137  history > 1351.txt
